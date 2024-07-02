@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+
+# Compiled python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Data directories
+data/germeval/folds
+
+# Checkpoints or model saves
+checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+
+# Ignore the models directory if it's used for saved or generated models
+models/
+
+# Ignore the outputs of various scripts
+src/filter_dataset/__pycache__/
+src/lm_finetuning/__pycache__/
+src/subtask_1/__pycache__/
+src/task_based_finetuning/__pycache__/
+src/utils/__pycache__/
+
+# System files
+.DS_Store
+Thumbs.db

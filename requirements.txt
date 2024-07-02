@@ -1,0 +1,11 @@
+datasets
+emoji
+evaluate
+matplotlib
+numpy
+pandas
+seaborn
+sentence_transformers
+scikit-learn
+torch
+transformers

@@ -1,0 +1,32 @@
+This dataset is from the GermEval2024 GerMS-Detect competition.
+
+All files are made available under a CC BY-NC-SA 4.0 License.
+
+For more information, please refer to the GermEval2024 GerMS-Detect competition page.
+
+GermEval2024-GerMS is maintained by OFAI.
+
+## Citation
+
+When using this dataset, please cite the following paper:
+
+@inproceedings{krenn-etal-2024-germs-sexism,
+    title = "{GERMS}-{AT}: A Sexism/Misogyny Dataset of Forum Comments from an {A}ustrian Online Newspaper",
+    author = "Krenn, Brigitte  and
+      Petrak, Johann  and
+      Kubina, Marina  and
+      Burger, Christian",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.683",
+    pages = "7728--7739",
+}
