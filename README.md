@@ -26,7 +26,7 @@ For the best model used in the submission, you have to follow these steps:
 
 1. Run the language model fine-tuning part:
     ```sh
-    python -m src.subtask_1.lm_finetuning
+    python -m src.lm_finetuning.lm_finetuning
     ```
 2. Split the folds:
     ```sh
