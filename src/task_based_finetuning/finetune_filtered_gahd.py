@@ -46,7 +46,7 @@ class_weights = compute_class_weight('balanced', classes=np.unique(train_gahd['l
 class_weights = torch.tensor(class_weights, dtype=torch.float)
 
 # Define model and trainer
-model = BertForSequenceClassification.from_pretrained('bert-base-german-cased', num_labels=2)
+model = BertForSequenceClassification.from_pretrained('google-bert/bert-base-german-cased', num_labels=2)
 
 # Define metrics using the evaluate library
 accuracy_metric = evaluate.load("accuracy", trust_remote_code=True)
