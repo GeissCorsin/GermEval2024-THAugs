@@ -101,7 +101,7 @@ def main():
 
     model.save('models/finetuned/sentence_transformers')
 
-    model = SentenceTransformer('models/sentence_transformers').to(device)
+    model = SentenceTransformer('models/finetuned/sentence_transformers').to(device)
 
     known_sexist_embeddings = model.encode(known_sexist_sentences, convert_to_tensor=True).to(device)
 
